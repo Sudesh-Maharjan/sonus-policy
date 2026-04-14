@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Privacy Policy for Sonus" />
+    <title>Sonus Privacy Policy</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f0f9f5;
+        --surface: #ffffff;
+        --text: #091413;
+        --muted: rgba(9, 20, 19, 0.72);
+        --border: rgba(9, 20, 19, 0.08);
+        --primary: #285a48;
+        --secondary: #408a71;
+        --accent: #b0e4cc;
+        --shadow: 0 20px 60px rgba(9, 20, 19, 0.08);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        background:
+          radial-gradient(circle at top left, rgba(176, 228, 204, 0.3), transparent 30%),
+          linear-gradient(180deg, #f6fcf9 0%, var(--bg) 100%);
+        color: var(--text);
+        line-height: 1.6;
+      }
+
+      .wrap {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 32px 20px 80px;
+      }
+
+      .hero {
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.78));
+        border: 1px solid var(--border);
+        border-radius: 28px;
+        padding: 28px;
+        box-shadow: var(--shadow);
+        backdrop-filter: blur(10px);
+      }
+
+      .eyebrow {
+        margin: 0 0 8px;
+        color: var(--secondary);
+        font-size: 0.84rem;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        font-weight: 700;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: clamp(2rem, 5vw, 3.4rem);
+        line-height: 1.05;
+        letter-spacing: -0.04em;
+      }
+
+      .subtitle {
+        margin: 14px 0 0;
+        max-width: 70ch;
+        color: var(--muted);
+        font-size: 1rem;
+      }
+
+      .meta {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 18px;
+      }
+
+      .pill {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 8px 12px;
+        border-radius: 999px;
+        background: rgba(64, 138, 113, 0.08);
+        border: 1px solid rgba(64, 138, 113, 0.14);
+        color: var(--primary);
+        font-size: 0.92rem;
+        font-weight: 600;
+      }
+
+      .card {
+        margin-top: 18px;
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 24px;
+        padding: 24px;
+        box-shadow: var(--shadow);
+      }
+
+      h2 {
+        margin: 0 0 12px;
+        font-size: 1.35rem;
+        letter-spacing: -0.02em;
+      }
+
+      h3 {
+        margin: 24px 0 8px;
+        font-size: 1.02rem;
+      }
+
+      p,
+      li {
+        color: var(--text);
+      }
+
+      ul {
+        margin: 0;
+        padding-left: 22px;
+      }
+
+      li + li {
+        margin-top: 8px;
+      }
+
+      .note {
+        padding: 14px 16px;
+        border-left: 4px solid var(--secondary);
+        background: rgba(176, 228, 204, 0.14);
+        border-radius: 14px;
+        color: var(--text);
+      }
+
+      a {
+        color: var(--primary);
+        text-decoration-thickness: 2px;
+        text-underline-offset: 3px;
+      }
+
+      .footer {
+        margin-top: 24px;
+        color: var(--muted);
+        font-size: 0.94rem;
+      }
+
+      code {
+        background: rgba(9, 20, 19, 0.05);
+        padding: 0.12rem 0.35rem;
+        border-radius: 6px;
+        font-size: 0.94em;
+      }
+
+      .section-grid {
+        display: grid;
+        gap: 18px;
+      }
+
+      @media (min-width: 760px) {
+        .section-grid {
+          grid-template-columns: 1fr 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="wrap">
+      <section class="hero">
+        <p class="eyebrow">Sonus</p>
+        <h1>Privacy Policy</h1>
+        <p class="subtitle">
+          This privacy policy explains how Sonus handles your information when you use the app to
+          scan local audio, play music, search online tracks, and use playback features.
+        </p>
+        <div class="meta">
+          <span class="pill">Last updated: April 13, 2026</span>
+          <span class="pill">No account required</span>
+          <span class="pill">Local-first music player</span>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>1. Overview</h2>
+        <p>
+          Sonus is designed as a local music player. Most of your music data stays on your device.
+          The app does not require you to create an account to use core features.
+        </p>
+        <div class="note">
+          This privacy policy is provided for transparency and Play Store review. It should be hosted
+          on a public URL and linked from your Google Play Console listing.
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>2. Information We Collect or Access</h2>
+        <div class="section-grid">
+          <div>
+            <h3>Local audio files</h3>
+            <p>
+              Sonus requests access to audio files stored on your device so it can scan and display
+              your music library. The app reads track metadata such as title, artist, album, duration,
+              and file location so it can organize and play songs.
+            </p>
+          </div>
+          <div>
+            <h3>App preferences and history</h3>
+            <p>
+              Sonus stores favorites, recent searches, playback preferences, queue state, and other
+              library information locally in SQLite on your device.
+            </p>
+          </div>
+          <div>
+            <h3>Voice search input</h3>
+            <p>
+              If you use voice search, Sonus requests microphone permission and processes your spoken
+              query so it can search for songs. Voice processing is used only to provide the feature.
+            </p>
+          </div>
+          <div>
+            <h3>Online search terms</h3>
+            <p>
+              When you use online search, Sonus sends the text you type to the Jamendo API to fetch
+              online tracks. Those search terms may be transmitted to the service provider you choose
+              to use in the app.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>3. How We Use Information</h2>
+        <ul>
+          <li>To scan, organize, and play your local audio library.</li>
+          <li>To store favorites, recent searches, playlists, and playback settings.</li>
+          <li>To display metadata and playback controls on the notification tray and lock screen.</li>
+          <li>To handle background playback and remote media controls such as play, pause, next, previous, and seek.</li>
+          <li>To send your online search queries to Jamendo when you explicitly use online discovery.</li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2>4. Data Storage and Sharing</h2>
+        <ul>
+          <li>
+            <strong>Local storage:</strong> Library metadata and settings are saved on your device in
+            SQLite. Depending on your permission settings, downloaded tracks may be stored in shared
+            device media storage or app storage.
+          </li>
+          <li>
+            <strong>No account:</strong> Sonus does not require sign-in and does not sync your library
+            to a cloud account.
+          </li>
+          <li>
+            <strong>Third-party services:</strong> Online search uses Jamendo. Their own privacy policy
+            and terms may apply when you use that feature.
+          </li>
+          <li>
+            <strong>No selling:</strong> Sonus does not sell personal data.
+          </li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2>5. Permissions</h2>
+        <p>Sonus may request the following permissions depending on the features you use:</p>
+        <ul>
+          <li><code>READ_MEDIA_AUDIO</code> / audio library access: to scan and display your local songs.</li>
+          <li><code>POST_NOTIFICATIONS</code>: to show playback notifications and media controls.</li>
+          <li><code>FOREGROUND_SERVICE</code> and <code>FOREGROUND_SERVICE_MEDIA_PLAYBACK</code>: to keep music playing in the background.</li>
+          <li><code>RECORD_AUDIO</code>: to enable voice search.</li>
+          <li>Media library permission: only if you choose to save downloads into shared device media storage.</li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2>6. Retention and Deletion</h2>
+        <p>
+          Most data Sonus stores is kept locally on your device. You can remove downloaded tracks,
+          delete app data, or uninstall the app to clear local data. If a download is saved to shared
+          device storage, it may remain on the device after uninstall until you delete it manually.
+        </p>
+      </section>
+
+      <section class="card">
+        <h2>7. Children’s Privacy</h2>
+        <p>
+          Sonus is a general music player and is not intended to knowingly collect personal data from
+          children under the age required by local law without appropriate consent.
+        </p>
+      </section>
+
+      <section class="card">
+        <h2>8. Security</h2>
+        <p>
+          We take reasonable steps to keep local data on your device and minimize collection. However,
+          no electronic storage or transmission method is completely secure.
+        </p>
+      </section>
+
+      <section class="card">
+        <h2>9. Changes to This Policy</h2>
+        <p>
+          We may update this privacy policy from time to time. The updated version will be posted on
+          this page with a new last-updated date.
+        </p>
+      </section>
+
+      <section class="card">
+        <h2>10. Contact</h2>
+        <p>
+          If you have questions about this privacy policy, contact the app developer at
+          <a href="mailto:sudechii.m@gmail.com">sudechii.m@gmail.com</a>.
+        </p>
+        <p class="footer">
+          Replace the email and host this file on your public domain before submitting your Play Store
+          listing.
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
